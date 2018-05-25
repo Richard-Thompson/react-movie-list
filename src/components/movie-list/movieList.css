@@ -1,0 +1,42 @@
+.movie-list{
+  width:100%;
+  height: 60%;
+  color:black;
+  overflow: scroll;
+  opacity: 1;
+  display: flex;
+  flex-direction: column;
+}
+
+.movie-list .movie {
+  display: flex;
+  flex-direction: row;
+  min-height: 100px;
+}
+
+.movie-list .movie img {
+  width:100px;
+  height:100px;
+}
+
+.details {
+  display: flex;
+  flex-direction: column;
+}
+
+.details h1 {
+  height:20px;
+  line-height: 20px;
+  padding:5px;
+  margin:0px;
+  font-size: 1rem;
+  text-align: left;
+}
+
+.details p {
+  height:20px;
+  line-height: 20px;
+  padding:5px;
+  margin:0px;
+  font-size: 0.75rem;
+}
